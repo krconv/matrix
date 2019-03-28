@@ -26,7 +26,7 @@ const requestHandler = (request, response) => {
     c.width = window.innerWidth;
 
     //chinese characters - taken from the unicode charset
-    var chinese = "█";
+    var chinese = "X#38@Q?";
     //converting the string into an array of single characters
     chinese = chinese.split("");
 
