@@ -30,7 +30,7 @@ const requestHandler = (request, response) => {
     //converting the string into an array of single characters
     chinese = chinese.split("");
 
-    var font_size = 30;
+    var font_size = 20;
     var columns = c.width/font_size; //number of columns for the rain
     //an array of drops - one per column
     var drops = [];
@@ -67,7 +67,7 @@ const requestHandler = (request, response) => {
       }
     }
 
-    setInterval(draw, 66);
+    setInterval(draw, 120);
     </script>
     </body>
   </html>
